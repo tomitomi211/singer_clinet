@@ -24,9 +24,9 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <Link to="/" className="menu">プロジェクト一覧</Link>
-        <Link to="/songs" className="menu">曲</Link>
-        <Link to="/" className="menu">ユーザー管理</Link>
+        <Link to="singer_clinet/" className="menu">プロジェクト一覧</Link>
+        <Link to="singer_clinet/songs" className="menu">曲</Link>
+        <Link to="singer_clinet/" className="menu">ユーザー管理</Link>
 
         {/* これ絶対消さないで、mysqlの取得だから */}
         {/* <ul>
@@ -37,8 +37,8 @@ function App() {
 
 
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/songs" element={<Songs />} />
+          <Route path="singer_clinet/" element={<Home />} />
+          <Route path="singer_clinet/songs" element={<Songs />} />
         </Routes>
       </div>
     </BrowserRouter>
