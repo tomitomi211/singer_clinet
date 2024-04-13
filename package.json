@@ -1,6 +1,6 @@
 {
   "name": "abcinger",
-  "homepage": "https://github.com/tomitomi211/singer_clinet.git",
+  "homepage": "https://tomitomi211.github.io/singer_clinet/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -20,7 +20,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "deploy": "npm run build && gh-pages -d build -m \"Updates --skip-ci\"",
+    "rm": "rm -rf docs",
+    "mv": "mv build docs",
+    "git": "git add . && git commit && git push origin master",
+    "deploy": "npm run rm && npm run build && npm run mv && npm run git",
+    
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

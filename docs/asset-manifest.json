@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/singer_clinet/static/css/main.f855e6bc.css",
+    "main.js": "/singer_clinet/static/js/main.bb1f4aa4.js",
+    "static/js/383.a6d5ce71.chunk.js": "/singer_clinet/static/js/383.a6d5ce71.chunk.js",
+    "index.html": "/singer_clinet/index.html",
+    "main.f855e6bc.css.map": "/singer_clinet/static/css/main.f855e6bc.css.map",
+    "main.bb1f4aa4.js.map": "/singer_clinet/static/js/main.bb1f4aa4.js.map",
+    "383.a6d5ce71.chunk.js.map": "/singer_clinet/static/js/383.a6d5ce71.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.bb1f4aa4.js"
+  ]
+}
