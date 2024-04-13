@@ -1,6 +1,6 @@
 {
   "name": "abcinger",
-  "homepage": "https://tomitomi211.github.io/singer_clinet/",
+  "homepage": "https://github.com/tomitomi211/singer_clinet.git",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -21,7 +21,7 @@
   },
   "scripts": {
     "deploy": "npm run build && gh-pages -d build -m \"Updates --skip-ci\"",
-    "start": "react-scripts start NODE_OPTIONS='--openssl-legacy-provider' ",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
